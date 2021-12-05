@@ -5,12 +5,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-
             <h3 class="h3">Hello <?= $name ?>!</h3>
             <p>Silahkan hubungi kami melalui form berikut</p>
 
             <form action="" class="form">
-
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" class="form-control">

@@ -4,8 +4,11 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url('news') ?>">News</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('about') ?>">About</a>
                 </li>
@@ -16,6 +19,9 @@
                     <a class="nav-link" href="<?= base_url('faqs') ?>">Faqs</a>
                 </li>
             </ul>
+            <div class="navbar-nav">
+                <a class="btn btn-outline-light" href="<?= base_url('admin/news') ?>" role="button">Admin</a>
+            </div>
         </div>
     </div>
 </nav>
